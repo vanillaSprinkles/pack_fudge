@@ -10,8 +10,10 @@ This is essentially the chrome source's grit folder with a modified py file (too
 I did not code the majority of this project and so I do not claim the cretit of the code except for the small snipit within pack-fudge.py and pack_fudge.sh
 
 
+
 Usage:
 
 ./pack_fudge.sh  dump  pak_file   empty_folder_to_extract_pak
-./pack_fudge.sh  pack  folder_where_files_exist   <new_pak_file>
+
+./pack_fudge.sh  pack  folder_where_files_exist   new_pak_file
 
