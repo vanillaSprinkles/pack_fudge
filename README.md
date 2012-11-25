@@ -11,6 +11,8 @@ I did not code the majority of this project and so I do not claim the cretit of 
 
 
 Usage:
+
 ./pack_fudge.sh  dump  pak_file   empty_folder_to_extract_pak
+
 ./pack_fudge.sh  pack  folder_where_files_exist   new_pak_file
 
