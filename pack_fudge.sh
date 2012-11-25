@@ -13,8 +13,8 @@ if [ -z $2 ]; then
     exit
 fi
 
-if [ -f pack_fudge/format/pack_fudge.py ]; then
-    $py pack_fudge/format/pack_fudge.py $@
+if [ -f grit/format/pack_fudge.py ]; then
+    $py grit/format/pack_fudge.py $@
 elif [ -f format/pack_fudge.py ]; then
     $py format/pack_fudge.py $@
 else
