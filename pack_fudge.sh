@@ -13,6 +13,8 @@ if [ -z $2 ]; then
     exit
 fi
 
+[[ $1 == "pack" ]] &&  $(which rm)  ${2}/*~
+
 if [ -f grit/format/pack_fudge.py ]; then
     $py grit/format/pack_fudge.py $@
 elif [ -f format/pack_fudge.py ]; then
